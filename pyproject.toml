@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "app"
 version = "0.1.0"
-description = "Template Python App"
+description = "Template FastAPI App"
 authors = ["Your Name Here <yourname@example.com>"]
 license = "MIT"
 readme = "README.md"
@@ -10,9 +10,11 @@ repository = "https://github.com/..."
 
 [tool.poetry.dependencies]
 python = "^3.10.0"
+fastapi = "^0.95.0"
+uvicorn = "^0.21.1"
 
 [tool.poetry.dev-dependencies]
-isort = "^5.10.1"
+isort = "^5.12.0"
 black = "^22.12.0"
 flake8 = "^6.0.0"
 flake8-annotations = "^2.6.2"
